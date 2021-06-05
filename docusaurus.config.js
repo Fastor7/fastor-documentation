@@ -2,13 +2,13 @@
 module.exports = {
   title: 'Fastor Help & Support',
   tagline: 'Dinosaurs are not cool',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://mevivek.github.io',
   baseUrl: '/fastor-documentation/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'Fastor', // Usually your GitHub org/user name.
-  projectName: 'Fastor', // Usually your repo name.
+  organizationName: 'mevivek', // Usually your GitHub org/user name.
+  projectName: 'fastor-documentation', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Fastor',
