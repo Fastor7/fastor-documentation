@@ -3,7 +3,7 @@ module.exports = {
   title: 'Fastor Help & Support',
   tagline: 'Dinosaurs are not cool',
   url: 'https://mevivek.github.io',
-  baseUrl: '/fastor-documentation/',
+  baseUrl: '/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',

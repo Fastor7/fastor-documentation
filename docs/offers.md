@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Offers 
 
 Offers allow you to indulge with customers through reduced price and marking in a long term clientele with your customers. Offers attract traffic to your business and it's a foolproof way of boosting your brand's name. They are investments that you place for long term relationships with your customers. The categories further help you check all the active offers, which are still running as well as the inactive ones. 
