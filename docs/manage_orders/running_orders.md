@@ -11,4 +11,8 @@ This section helps you keep track of all your ongoing (Pending, Preparing, Ready
 **Ready**: All of your customers' orders that are perfect to be served are labelled as ready.
 **Dispatched**: Dispatched orders are out on delivery to your clients and customers. Dispatched orders can be updated by **marking them as complete**.
 
+<!-- (insert screenshot highlighting order status: pending/preparing etc) -->
+
 You can also further filter these orders by clicking on the **Filter** option at the top right corner. You will be given options such as Delivery, Pick Up, Dine In and Scheduled Pickup, making it clear at what stage of preparation each order exists.
+
+![](https://fastorimage.s3.ap-south-1.amazonaws.com/tutorial/Running%20Orders.gif)
