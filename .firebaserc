@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "onbo-android-app-fc089"
+  }, 
+  "targets": {
+    "onbo-android-app-fc089": {
+      "hosting": {
+        "docs-fastor": [
+          "docs-fastor"
+        ]
+      }
+    }
+  }
+}

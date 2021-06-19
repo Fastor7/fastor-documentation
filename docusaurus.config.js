@@ -1,20 +1,20 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Fastor Help & Support',
-  tagline: 'Dinosaurs are not cool',
-  url: 'https://mevivek.github.io',
-  baseUrl: '/fastor-documentation/',
+  tagline: 'Learn how to switch your business online in 5 mins',
+  url: 'https://docs.fastor.ai',
+  baseUrl: '/',
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'mevivek', // Usually your GitHub org/user name.
+  organizationName: 'Fastor', // Usually your GitHub org/user name.
   projectName: 'fastor-documentation', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Fastor',
+      // title: 'Docs Home',
       logo: {
         alt: 'Fastor Logo',
-        src: 'img/logo.svg',
+        src: 'img/fastor-logo.png',
       },
       items: [
         {
@@ -23,16 +23,16 @@ module.exports = {
           position: 'left',
           label: 'Tutorial',
         },
-        {
-          to: '/blog',
-          label: 'Blog',
-          position: 'left'
-        },
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
-        },
+        // {
+        //   to: '/blog',
+        //   label: 'Blog',
+        //   position: 'left'
+        // },
+        // {
+        //   href: 'https://github.com/facebook/docusaurus',
+        //   label: 'GitHub',
+        //   position: 'right',
+        // },
       ],
     },
     footer: {
