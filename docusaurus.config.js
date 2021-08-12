@@ -7,7 +7,7 @@ module.exports = {
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'Fastor', // Usually your GitHub org/user name.
+  organizationName: 'mevivek', // Usually your GitHub org/user name.
   projectName: 'fastor-documentation', // Usually your repo name.
   themeConfig: {
     navbar: {
@@ -23,11 +23,11 @@ module.exports = {
           position: 'left',
           label: 'Tutorial',
         },
-        // {
-        //   to: '/blog',
-        //   label: 'Blog',
-        //   position: 'left'
-        // },
+        {
+          to: '/changelogs/intro',
+          label: 'Changelogs',
+          position: 'left'
+        },
         // {
         //   href: 'https://github.com/facebook/docusaurus',
         //   label: 'GitHub',
@@ -87,15 +87,9 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -103,4 +97,16 @@ module.exports = {
       },
     ],
   ],
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'changelogs',
+        path: 'changelogs',
+        routeBasePath: 'changelogs',
+        sidebarPath: require.resolve('./sidebars-changelogs.js'),
+        // ... other options
+      },
+    ],
+  ]
 };
