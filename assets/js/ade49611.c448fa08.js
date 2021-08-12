@@ -1,1 +1,0 @@
-(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[8032],{5593:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/fastor-documentation/blog/tags","slug":"hello","name":"hello","count":2,"permalink":"/fastor-documentation/blog/tags/hello"}')}}]);
